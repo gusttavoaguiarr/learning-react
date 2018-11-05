@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  webpack-react-docker-compose:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webpack-react-docker-compose
+    entrypoint: sh entrypoint.sh
+    working_dir: /home/node
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/home/node
