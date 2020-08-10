@@ -2,6 +2,10 @@
 
 Aprendendo o básico de typeScript
 
+## inicializar projeto
+
+- npm i -g typescript
+
 ### Comandos
 
 - tsc index.ts --watch : Gerar arquivo JS
