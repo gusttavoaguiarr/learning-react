@@ -47,4 +47,13 @@ function error(): never {
 
 // object
 let cart: object
-cart = {}
+cart = {
+    key: "fi",
+}
+
+// Type Inference (Não é necessário passar o tipo da variável)
+let message2 = "mensagm teste"
+
+window.addEventListener("click", (e) => {
+    console.log(e.target);
+})
