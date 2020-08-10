@@ -1,6 +1,7 @@
+"use strict";
 var input1 = document.getElementById("num1");
 var input2 = document.getElementById("num2");
-var button = document.getElementById("button");
+var button = document.getElementById("button"); // ! ignorando error
 function sum(a, b) {
     return a + b;
 }
